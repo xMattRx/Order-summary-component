@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-position: center -40%;
+  background-repeat: no-repeat;
+  background-color: hsl(225deg, 100%, 94%);
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: none;
+    background-color: hsl(226deg, 76%, 90%);
+  }
+}
+body .container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+body .container .order-container {
+  box-shadow: 15px 2px 35px rgba(0, 0, 0, 0.1882352941);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+body .container .order-container .illustration-hero {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin: 0px;
+  width: 100%;
+}
+body .container .order-container .informations-container {
+  align-items: center;
+  background: #FFF;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: hsl(223deg, 47%, 23%);
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+body .container .order-container .informations-container .title {
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+body .container .order-container .informations-container .paragraph {
+  color: hsl(224deg, 23%, 55%);
+  font-size: 16px;
+  max-width: 300px;
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 22px;
+  width: 100%;
+}
+@media only screen and (max-width: 453px) {
+  body .container .order-container .informations-container .paragraph {
+    max-width: 264px;
+  }
+}
+body .container .order-container .informations-container .anual-container {
+  align-items: center;
+  background-color: hsla(222deg, 62%, 96%, 0.776);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 40px;
+  padding: 20px 30px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+@media only screen and (max-width: 453px) {
+  body .container .order-container .informations-container .anual-container {
+    padding: 20px 20px;
+  }
+}
+body .container .order-container .informations-container .anual-container img {
+  margin-right: 20px;
+}
+@media only screen and (max-width: 453px) {
+  body .container .order-container .informations-container .anual-container img {
+    margin-right: 10px;
+  }
+}
+body .container .order-container .informations-container .anual-container .text-container {
+  display: flex;
+  flex-direction: column;
+}
+body .container .order-container .informations-container .anual-container .text-container h4 {
+  font-weight: 700;
+}
+body .container .order-container .informations-container .anual-container .text-container p {
+  color: hsl(224deg, 23%, 55%);
+}
+body .container .order-container .informations-container .anual-container .change {
+  color: #4e3fbc;
+  cursor: pointer;
+  font-weight: 700;
+  margin-left: 70px;
+  text-decoration: underline;
+}
+body .container .order-container .informations-container .anual-container .change:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+@media only screen and (max-width: 453px) {
+  body .container .order-container .informations-container .anual-container .change {
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  body .container .order-container .informations-container .anual-container .change {
+    margin-left: 9px;
+  }
+}
+body .container .order-container .informations-container button {
+  border: none;
+  background-color: #382ae1;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2549019608);
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Red Hat Display", sans-serif;
+  margin-bottom: 30px;
+  padding: 14px 110px;
+}
+body .container .order-container .informations-container button:hover {
+  background-color: #766cf1;
+}
+@media only screen and (max-width: 453px) {
+  body .container .order-container .informations-container button {
+    padding: 14px 75px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  body .container .order-container .informations-container button {
+    padding: 14px 65px;
+  }
+}
+body .container .order-container .informations-container .cancel {
+  color: hsl(0deg, 0%, 51%);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
